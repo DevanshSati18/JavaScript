@@ -1,0 +1,17 @@
+//Arrays in JavaScript come with a set of built-in methods for common operations. Here’s a brief overview of some essential array methods:
+
+let fruits = ['apple', 'banana'];
+console.log(fruits); 
+
+//push()  Adds one or more elements to the end of an array.
+fruits.push('orange');
+console.log(fruits); 
+
+
+//pop() Removes the last element from an array and returns it.
+
+let last = fruits.pop();
+console.log("the last element of the array : " +last); // Output: orange
+console.log(fruits); // Output: ['apple', 'banana']
+
+// shift()  Removes the first element from an array and returns it.
